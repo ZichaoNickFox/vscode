@@ -1,0 +1,45 @@
+{
+    "editor.fontSize": 17,
+    "editor.lineHeight": 18,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                ";"
+            ],
+            "after": [
+                ":"
+            ],
+        }
+    ],
+    "window.zoomLevel": 0,
+    "python.jediEnabled": false,
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\Scripts\\ipython.exe",
+    "workbench.colorTheme": "Solarized Light",
+    "jupyter.appendResults": true,
+    "http.proxyStrictSSL": false,
+    "editor.hover.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.renderControlCharacters": true,
+    "terminal.integrated.shell.windows":"C:\\ProgramData\\Anaconda3\\Scripts\\ipython.exe",
+    "coloredRegions.namedColors":{
+        "red": "rgba(231, 76, 60, 0.15)",
+        "orange": "rgba(230, 126, 34, 0.15)",
+        "yellow": "rgba(241, 196, 15, 0.15)",
+        "gray": "rgba(236, 240, 241, 0.15)",
+        "cyan": "rgba(26, 188, 156, 0.15)",
+        "green": "rgba(46, 204, 113, 0.15)",
+        "blue": "rgba(52, 152, 219, 0.15)",
+        "black": "rgba(52, 73, 94, 0.15)",
+        "puple":"rgba(155,89,182,0.15)",
+        "0": "rgba(231, 76, 60, 0.15)",
+        "1": "rgba(230, 126, 34, 0.15)",
+        "2": "rgba(241, 196, 15, 0.15)",
+        "3": "rgba(46, 204, 113, 0.15)",
+        "4": "rgba(26, 188, 156, 0.15)",
+        "5": "rgba(52, 152, 219, 0.15)",
+        "6":"rgba(155,89,182,0.15)",
+        "7": "rgba(236, 240, 241, 0.15)",
+        "8": "rgba(52, 73, 94, 0.15)",
+    },
+    "python.autoComplete.addBrackets":true,
+}
