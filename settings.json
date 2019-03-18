@@ -9,8 +9,18 @@
             "after": [
                 ":"
             ],
+        },
+        {
+            "before": [
+                ","
+            ],
+            "after": [
+                "<leader>", "<leader>","s"
+            ],
+            "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'" 
         }
     ],
+    "vim.useSystemClipboard": true,
     "window.zoomLevel": 0,
     "python.jediEnabled": false,
     "python.pythonPath": "C:\\ProgramData\\Anaconda3\\Scripts\\ipython.exe",
@@ -18,10 +28,9 @@
     "jupyter.appendResults": true,
     "http.proxyStrictSSL": false,
     "editor.hover.enabled": false,
-    "editor.parameterHints.enabled": false,
     "editor.renderControlCharacters": true,
-    "terminal.integrated.shell.windows":"C:\\ProgramData\\Anaconda3\\Scripts\\ipython.exe",
-    "coloredRegions.namedColors":{
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "coloredRegions.namedColors": {
         "red": "rgba(231, 76, 60, 0.15)",
         "orange": "rgba(230, 126, 34, 0.15)",
         "yellow": "rgba(241, 196, 15, 0.15)",
@@ -30,16 +39,93 @@
         "green": "rgba(46, 204, 113, 0.15)",
         "blue": "rgba(52, 152, 219, 0.15)",
         "black": "rgba(52, 73, 94, 0.15)",
-        "puple":"rgba(155,89,182,0.15)",
+        "puple": "rgba(155,89,182,0.15)",
         "0": "rgba(231, 76, 60, 0.15)",
         "1": "rgba(230, 126, 34, 0.15)",
         "2": "rgba(241, 196, 15, 0.15)",
         "3": "rgba(46, 204, 113, 0.15)",
         "4": "rgba(26, 188, 156, 0.15)",
         "5": "rgba(52, 152, 219, 0.15)",
-        "6":"rgba(155,89,182,0.15)",
+        "6": "rgba(155,89,182,0.15)",
         "7": "rgba(236, 240, 241, 0.15)",
         "8": "rgba(52, 73, 94, 0.15)",
     },
-    "python.autoComplete.addBrackets":true,
+    "python.autoComplete.addBrackets": true,
+    "python.linting.pylintEnabled": false,
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.down30Lines",
+            "sequence": [
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "down",
+                        "by": "wrappedLine",
+                        "value": 30
+                    }
+                },
+                {
+                    "command": "editorScroll",
+                    "args": {
+                        "to": "down",
+                        "by": "halfPage",
+                        "revelCursor":true
+                    }
+                }
+            ]
+        },
+        {
+            "command": "multiCommand.up30Lines",
+            "sequence": [
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "up",
+                        "by": "wrappedLine",
+                        "value": 30
+                    }
+                },
+                {
+                    "command": "editorScroll",
+                    "args": {
+                        "to": "up",
+                        "by": "halfPage",
+                        "revelCursor":true
+                    }
+                }
+            ]
+        }
+    ],
+    "python.workspaceSymbols.enabled":true,
+    "python.workspaceSymbols.rebuildOnStart":false,
+    "python.workspaceSymbols.rebuildOnFileSave": false,
+    "python.workspaceSymbols.ctagsPath": "C:\\Program Files (x86)\\ctags58\\ctags58.exe",
+    "vim.easymotion":true,
+    "vim.easymotionMarkerFontSize":20,
+    "vim.easymotionMarkerHeight":20,
+    "vim.easymotionMarkerWidthPerChar": 12,
+    "vim.easymotionMarkerBackgroundColor": "blue",
+    "vim.easymotionJumpToAnywhereRegex": "\\b[A-Za-z0-9]|[A-Za-z0-9]\\b|_.|#.|[a-z][A-Z]|<.|>.|{.|}.",
+    "todo-tree.defaultHighlight": {
+        "foreground": "green",
+        "type": "none"
+    },
+    "todo-tree.customHighlight": {
+        "TODO": {},
+        "FIXME": {}
+    },
+    "editor.detectIndentation": false,
+    "markdown-preview-enhanced.mermaidTheme": "forest",
+    "go.autocompleteUnimportedPackages": true,
+    "languageServerHaskell.useCustomHieWrapper": true,
+    "languageServerHaskell.useCustomHieWrapperPath": "C:\\Users\\liuzichao\\AppData\\Roaming\\local\\bin\\hie-wrapper.exe",
+    "languageServerHaskell.trace.server": "verbose",
+    "languageServerHaskell.formattingProvider": "floskell",
+    "languageServerHaskell.liquidOn": true,
+    "haskelly.buttons.stackRunParams": "stack.exe",
+    "editor.tabSize": 2,
+    "html.trace.server": "verbose",
+    "haskell.ghcMod.logLevel": "log",
+    "haskell.ghcMod.onHover": "info",
+    "haskell.symbols.provider": "hasktags",
 }

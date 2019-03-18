@@ -3,24 +3,126 @@
 		"name": "e1",
 		"rootPath": "c:\\Users\\liuzichao\\Desktop\\ml\\Coursera-ML-AndrewNg-Notes\\code\\ex1-linear regression",
 		"paths": [],
-		"group": ""
+		"group": "",
+		"enabled": true
 	},
 	{
 		"name": "data_help",
 		"rootPath": "c:\\Users\\liuzichao\\Desktop\\python_data_science_handbook",
 		"paths": [],
-		"group": ""
+		"group": "",
+		"enabled": true
 	},
 	{
 		"name": "jupyter",
 		"rootPath": "c:\\Users\\liuzichao\\Desktop\\ml\\Coursera-ML-AndrewNg-Notes\\code",
 		"paths": [],
-		"group": ""
+		"group": "",
+		"enabled": true
 	},
 	{
 		"name": "e2",
 		"rootPath": "c:\\Users\\liuzichao\\Desktop\\ml\\Coursera-ML-AndrewNg-Notes\\code\\ex2-logistic regression",
 		"paths": [],
-		"group": ""
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "neuron",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\vscode-ipe\\test",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "notes",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\notes",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "pynb",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\pynb",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "PythonDataScienceHandbook",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\PythonDataScienceHandbook",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "MDT",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\MDT",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "CG",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\CG",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "CPP-Reactive-Programming",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\CPP-Reactive-Programming",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "work",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\work",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "go",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\go",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "clojure",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\clojure",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "fp",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\fp-course",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "first-project",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\first-project",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "haskell-ide-engine",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\haskell-ide-engine",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "job",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\job",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
