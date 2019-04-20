@@ -128,4 +128,7 @@
     "haskell.ghcMod.logLevel": "log",
     "haskell.ghcMod.onHover": "info",
     "haskell.symbols.provider": "hasktags",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.cursorBlinking": "solid",
+    "typescript.updateImportsOnFileMove.enabled": "always",
 }

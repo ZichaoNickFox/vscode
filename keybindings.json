@@ -105,12 +105,12 @@
     {
         "key": "shift+j",
         "command": "multiCommand.down30Lines",
-        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
     },
     {
         "key": "shift+k",
         "command": "multiCommand.up30Lines",
-        "when": "editorTextFocus && vim.active && vim.mode != 'Insert'"
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
     },
     {
         "key": "ctrl+oem_minus",

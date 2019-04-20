@@ -124,5 +124,47 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "Haskell",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\Haskell",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Lambda-Calculus",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\Lambda-Calculus",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "webgl",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\《WebGL编程指南》PDF 下载\\code",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "my-app",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\angular\\my-app",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "angular-tour-of-heros",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\angular\\angular-tour-of-heros",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "cardano-sl",
+		"rootPath": "c:\\Users\\liuzichao\\Desktop\\cardano-sl",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
